@@ -1,0 +1,26 @@
+{
+    "name": "siestacat/random-file-generator",
+    "description" : "Generate a random file with random bytes for testing",
+    "type": "library",
+    "license": "Apache-2.0",
+    "autoload": {
+        "psr-4": {
+            "Siestacat\\RandomFileGenerator\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "SiestaCat"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "php": ">=8.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^10.2.2"
+    },
+    "scripts": {
+        "test": "./vendor/bin/phpunit"
+    }
+}
